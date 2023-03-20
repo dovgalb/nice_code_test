@@ -12,6 +12,12 @@ TRANSPORT_TAX: float = 0.01
 
 
 def create_entity(amount: int, table: ModelBase, *args, **kwargs) -> list:
+    """
+    amount: int - кол-во итераций
+    table: ModelBase - django-модель таблицы
+    *args, **kwargs - настройки для атрибутов моделей
+
+    """
     return mixer.cycle(amount).blend(table, *args, **kwargs)
 
 
