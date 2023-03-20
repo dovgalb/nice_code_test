@@ -10,6 +10,7 @@
 в которых описана логика для связанных таблиц и логика алгоритма
 
 Схема БД - https://github.com/dovgalb/nice_code_test/blob/main/dashboards/logics_db.drawio.pdf
+
 Схема Алгоритма - https://github.com/dovgalb/nice_code_test/blob/main/dashboards/algoritm.drawio.pdf
 
 ## Принцип работы script.py
