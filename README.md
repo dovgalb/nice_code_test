@@ -9,9 +9,10 @@
 В my_test_task/dashboards хранятся PDF-файлы и файл .drawio 
 в которых описана логика для связанных таблиц и логика алгоритма
 
+Схема БД - https://github.com/dovgalb/nice_code_test/blob/main/dashboards/logics_db.drawio.pdf
+Схема Алгоритма - https://github.com/dovgalb/nice_code_test/blob/main/dashboards/algoritm.drawio.pdf
 
 ## Принцип работы script.py
-
 
 Функция create_entityamount: int, table: ModelBase, *args, **kwargs) создает сущности и
 генерирует для них случайные значения на основе моделей
