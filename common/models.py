@@ -53,7 +53,7 @@ class WarehouseProduct(models.Model):
         return f'Связь WhP - {self.product}, {self.warehouse}'
 
 
-# TODO добавить в drowio
+# TODO добавить изменения в drowio
 class ProductClient(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
